@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #444;
+  }
+  
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+  
+  .filters, .sort {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  select, input[type="file"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .job-list {
+    margin-top: 2rem;
+  }
+  
+  .job-item {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .job-item:last-child {
+    border-bottom: none;
+  }
+  
+  .job-item:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  
